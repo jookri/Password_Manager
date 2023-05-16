@@ -373,9 +373,6 @@ class PasswordManagerGUI:
         self.add_label = tk.Label(self.add_menu_frame, text="Add password", font=("Arial", 40, "bold"), bg="#0ABaB5")
         self.add_label.pack(pady=30)
 
-        self.info_label = tk.Label(self.add_menu_frame, text="At least one field in addition to the password must be filled.", font=("Arial", 15), bg="#0ABaB5")
-        self.info_label.pack(pady=5)
-
         self.sitename_label = tk.Label(self.add_menu_frame, text="Site/application name", bg="#0ABaB5")
         self.sitename_label.pack()
         self.sitename_entry = tk.Entry(self.add_menu_frame)
